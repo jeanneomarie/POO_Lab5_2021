@@ -1,3 +1,5 @@
+package candies;
+
 public class Order {
     private int id;
     private Client client;

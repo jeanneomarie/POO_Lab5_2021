@@ -1,3 +1,5 @@
+package candies;
+
 public class Candy {
     private String name;
     private double price;

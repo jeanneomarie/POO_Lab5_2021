@@ -1,3 +1,5 @@
+package candies;
+
 public class Main {
     public static void main(String[] args) {
         Client client = new Client("Ioana", 50);
