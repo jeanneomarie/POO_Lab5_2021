@@ -37,14 +37,11 @@ public class Candy {
     public double getDiscountedPrice() {
         if (this.discount != null) {
             if (discount.equals(Discount.CHRISTMAS)) {
-                double discount = this.price * .25;
-                this.price -= discount;
+                return this.price * .75;
             } else if (discount.equals(Discount.EASTER)) {
-                double discount = this.price * .20;
-                this.price -= discount;
+                return this.price * .80;
             } else if (discount.equals(Discount.FIFTY_PERCENT)) {
-                double discount = this.price * .50;
-                this.price -= discount;
+                return this.price * .50;
             }
         }
         return this.price;
